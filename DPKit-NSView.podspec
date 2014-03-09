@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPKit-NSView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DPKit-NSView"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   # s.dependency     'NSColor-Crayola'
   s.dependency     'NSView-NewConstraints'
-  s.dependency     'DPKit'
+  s.dependency     'DPKit-Utils'
   s.dependency     'DPKit-Styles'
   s.frameworks   = 'Foundation', 'QuartzCore'
   s.requires_arc = true
