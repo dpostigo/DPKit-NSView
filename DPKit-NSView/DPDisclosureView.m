@@ -2,11 +2,7 @@
 // Created by Dani Postigo on 3/14/14.
 //
 
-#import <NSView-NewConstraints/NSView+NewConstraint.h>
 #import "DPDisclosureView.h"
-#import "DPRowView.h"
-#import "NSView+DPFrameUtils.h"
-#import "NSView+SuperConstraints.h"
 #import "DisclosureViewController.h"
 
 @implementation DPDisclosureView
