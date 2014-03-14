@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DPKit-NSView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "DPKit-NSView"
   s.homepage     = "http://dpostigo.com"
   s.license      = 'BSD'
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'DPKit-NSView/*.{h,m}'
+  s.resources = ["DPKit-NSView/*.xib"]
 
 
 

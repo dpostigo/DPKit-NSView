@@ -5,10 +5,13 @@
 #import <Foundation/Foundation.h>
 
 @interface DPContainerView : NSView {
+
+    NSViewController *controller;
     NSString *controllerClassString;
     BOOL isFlipped;
 }
 
 @property(nonatomic, copy) NSString *controllerClassString;
 @property(nonatomic) BOOL isFlipped;
+@property(nonatomic, strong) NSViewController *controller;
 @end
